@@ -60,7 +60,7 @@
             let now = new Date();
             let nextThursday = new Date(now);
             nextThursday.setDate(now.getDate() + ((4 - now.getDay() + 7) % 7)); // Get next Thursday
-            nextThursday.setHours(19, 0, 0, 0); // Set to 7:00 PM CST
+            nextThursday.setHours(19, 15, 0, 0); // Set to 7:15 PM CST
             
             // Check if it's the first Thursday of the month and skip it
             if (nextThursday.getDate() <= 7) {
